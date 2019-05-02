@@ -1,9 +1,7 @@
 function doGet() {
-  //return HtmlService
-     // .createTemplateFromFile('WebappHTML')
+// relier script au la page HTML
   var output = HtmlService.createTemplateFromFile('page');
       return output.evaluate().setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
-      //.evaluate()//.setxframeoptionsmode(htmelservice.xframeoptionmode.allowall;
 }
 
 function getData() {
